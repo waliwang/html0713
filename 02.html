@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p{
+            pedding-left:1em;
+            background-color: #ccc;
+            background-image:linear-gradient(0deg, red,red) ;
+            background-repeat: no-repeat;
+            background-size: 10px 10px;
+            background-position: 4px 4px;
+        } */
+/* ----------------------------------------------- */
+        p{
+            background-color: #ccc;
+            padding-left: 1em;
+            position: relative;
+        }
+        p:before{
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: #f00;
+            left:5px;
+            top:5px;
+            border-radius: :50%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box"></div>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius facilis deleniti, et est voluptatum, perspiciatis expedita odit nisi iusto, quo asperiores! Fugit perspiciatis a sint suscipit voluptas quasi eum!</p>
+</body>
+</html>
